@@ -1,0 +1,16 @@
+ApiVersion: v1
+kind: service
+metadata:
+  name: nginx-service
+  namespace: tenant-demo
+  labels:
+    app: web
+    tenant: demo
+spec:
+  type: ClusterIP
+  selector:
+    app: web
+  ports:
+  - port: 80
+    targetPort: 80
+    protocol: TCP

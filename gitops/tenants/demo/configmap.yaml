@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: app-config 
+  namespace: tenant-demo
+  labels:
+    tenant: demo
+data:
+  database_host: "postgres.example.com"
+  database_port: "5432"
+  app_mode: "production"
+  log_level: "info"
