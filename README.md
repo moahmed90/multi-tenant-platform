@@ -1,8 +1,4 @@
 # Multi-Tenant Kubernetes Platform
-
-**Status:** 🚧 Active Development  
-**Started:** February 2026
-
 ---
 
 ## What This Project Is
